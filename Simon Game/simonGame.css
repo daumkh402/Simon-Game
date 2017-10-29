@@ -1,0 +1,125 @@
+body{
+	
+	background-image: url('http://cafefiles.naver.net/20120317_140/cucurico_1331913151848MuqFx_JPEG/8857.jpg');
+}
+header{
+	font-size:50px;
+	font-family:Lobster;
+	text-align:center;
+}
+#hi{
+	margin: auto;
+	width:600px;
+	height:400px;
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	
+	
+	
+}
+#buttons{
+	margin:auto;
+	display:table;
+	margin-top:20px;
+
+}
+.container{
+	display: table-cell;
+	width:50px;
+	height:40px;
+	text-align:center;
+
+}
+.btn{
+	font-size:25px;
+	border-radius:50%;
+	width:40px;
+	height:40px;
+	border: solid black 1px;
+	display: inline-block;
+	
+}
+#start{
+	background-color:#0B3B0B;
+
+	
+}
+#restart{
+	background-color:red;
+
+	
+}
+
+#strict{
+	background-color:#5E610B;
+	
+}
+
+#count{
+	width:80px;
+	height:40px;
+		
+}
+#resultDiv{
+	position:absolute;
+    display:block;
+    left:45%;
+   
+   
+    
+
+}
+
+
+/***************************************************/
+#red{
+	
+	background-color: #B40404;
+	width:300px;
+	height:200px;
+	border: solid black;
+	border-top-left-radius:30px;
+	cursor:pointer;	
+	box-shadow:10px 10px 5px white ;
+}
+#yellow{
+
+	background-color: #D7DF01;
+	width:300px;
+	height:200px;
+	border: solid black;
+	border-top-right-radius:30px;	
+	cursor:pointer;
+}
+#green{
+
+	background-color:#0B610B;
+   width:300px;
+	height:200px;
+	border: solid black;
+	border-bottom-right-radius:30px;
+	cursor:pointer;	
+}
+#blue{
+
+	background-color:#0B0B61;
+	width:300px;
+	height:200px;
+	border: solid black;
+	border-bottom-left-radius:30px;
+	cursor:pointer;		
+}
+#count{
+	background-color:black;
+	border:solid white 1px;
+	border-radius: 15px;
+	font-size:20px;
+	text-align:center;
+	color:white;
+	margin-left: 10px;
+}
+/****************************************************/
+
